@@ -1,5 +1,11 @@
 # MlOps-AzureML
 
+## Overview
+**This project is part of the Udacity Azure ML Nanodegree.**
+
+Where we apply Ml-Ops principle by starting  with the authenticating to Azure Machine Learning services , then the creation of an Automated ML experiment and the deployment of the best model , after that we enable the loging so that we can review important log information , then we consum the model endpoint and we finelly create and publish the pipeline to automate all this previous step
+
+![projectdiagrame](Main-step-project.png "projectdiagrame")
 
 # Your Project Title Here
 
