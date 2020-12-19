@@ -7,10 +7,18 @@ Where we apply Ml-Ops principle by starting  with the authenticating to Azure Ma
 
 ![projectdiagrame](Main-step-project.png "projectdiagrame")
 
-# Your Project Title Here
+## Summary of the project <a name="Summary"></a>
+The purpose of this project is to predict if a client will subscribe to a term deposit product by using a dataset  (located here: https://www.kaggle.com/henriqueyamahata/bank-marketing ) related to direct marketing campaigns of a Portuguese banking institution by creating two different process:
 
-*TODO:* Write an overview to your project.
 
+Authentication
+Automated ML Experiment
+Deploy the best model
+Enable logging
+Swagger Documentation
+Consume model endpoints
+
+In this project, yocontinue to work with the Bank Marketing dataset. You will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. You will also create, publish, and consume a pipeline
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
