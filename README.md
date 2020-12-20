@@ -19,7 +19,14 @@ The architectual diagram of the project with the main step of each critical phas
 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+The Key steps of the project are demonstrated bellow (screenshots included)
+
+**Step 1: Authentication**
+Skiped because i used the provided Udacity Lab 
+
+**Step 2: Step 2: Automated ML Experiment
+**
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
