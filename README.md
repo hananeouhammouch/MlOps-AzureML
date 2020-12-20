@@ -13,7 +13,7 @@ Where we apply MLOps principle by starting with the authenticating to Azure Mach
 ![projectdiagrame](Main-step-project.png "projectdiagrame")
 
 ## Architectural Diagram
-The architectural diagram of the project with the main step of each critical phase to the overall flow is described below:
+The architectural diagram of the project with the main steps of each critical phase to the overall flow is described below:
 
 ![architector](architector.png "architecture")
 
@@ -62,11 +62,11 @@ The key steps of the project are demonstrated bellow (screenshots included)
  
  **Step 5: Consume the deployed model using Swagger**
  
-  1. Where we start by downloading the swagger.json file associated with the deployed model endpoints and place it in the same folder as the swagger. sh and the server.py(Provided)
+  1. Where we start by downloading the swagger.json file associated with the deployed model endpoints and place it in the same folder as the swagger.sh and the server.py(Provided)
   
    ![Swagger-json]( Swagger-jason.png " Swagger-json")
    
-  2. We next execute the provided swagger. sh to download the latest container and lunch Swagger
+  2. We next execute the provided swagger.sh to download the latest container and lunch Swagger
   
    ![swagger-default-page]( swagger-default-page.PNG " swagger-default-page.PNG")
    
@@ -76,7 +76,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
    
  **Step 6: Consume the Model Endpoints**
  
-  1. Where we modify a provided endpoints.py by adding the scoring_uri and the key to match the key for the service and the URI that was generated after deployment
+  1. Where we modify a provided endpoints.py by adding the scoring_uri and the key to match what was generated after the deployment
   
    ![EndPoint-file](EndPoint-file.PNG " EndPoint-file")
    
@@ -103,11 +103,13 @@ The key steps of the project are demonstrated bellow (screenshots included)
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
 
 ## Standout Suggestions
 The ability to use Python SDK to do various configuration in Azure ML is really intersting and my first attempt was to configure the automl run using python SDk Automated ML Experiment (v0).ipynb https://github.com/hananeouhammouch/MlOps-AzureML/blob/main/Automated%20ML%20Experiment%20(v0).ipynb but unfortunitly i was not able to deploy the model after mutiple attempt
+   
+![auto-ml-failed](auto-ml-failed.png " auto-ml-failed")
 
-My suggestions for the future are basicaly asscociated with the AutoML step where we need first to fix balancing problem which can lead to a falsely perceived positive effect of a model's accuracy because the input data has bias towards one class we need next to give more time the the AutoML experiement to test more model and deliver better result 
+My suggestions for the future are basicaly asscociated with the AutoML step where we need first to fix balancing problem which can lead to a falsely perceived positive effect of a model's accuracy because the input data has bias towards one class, we need also next to give more time the the AutoML experiement to test more model and deliver better result 
 
 
