@@ -21,9 +21,9 @@ The architectual diagram of the project with the main step of each critical phas
 ## Key Steps
 The Key steps of the project are demonstrated bellow (screenshots included)
 
-**Step 1:Authentication**  *Skiped because i used the provided Udacity Lab*
+**Step 1: Authentication**  *Skiped because i used the provided Udacity Lab*
 
-**Step 2:Automated ML Experiment**
+**Step 2: Create the Automated ML Experiment**
 
  1. Where we start first by the registration of the dataset into Azure ML Studio:
 
@@ -41,7 +41,7 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![Best-Model](Best-Model.png "Best-Model")
 
-**Step 3:Deploy the Best Model**
+**Step 3: Deploy the Best Model**
 
  1. Where we deploy the best Model from the previous Auto ML experiment by enabling Authentication and using Azure container instance (ACI)
 
@@ -51,7 +51,7 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
-**Step 4:Enable Application Insights**
+**Step 4: Enable Application Insights to retrieve logs. ab visualize the performance**
 
  1. Where we modify a provided logs.py by adding the name of the deployed model and enabling application insight 
  
@@ -59,7 +59,25 @@ The Key steps of the project are demonstrated bellow (screenshots included)
  
   2. To finally access to application insight 
   
- ![Application-insight.png]( Application-insight.png " Application-insight")
+ ![Application-insight]( Application-insight.png " Application-insight")
+ 
+ **Step 5: Consume the deployed model using Swagger**
+ 
+  1. Where we start by downloading the swagger.json file  associated to the deployed model endpoints and place in the same folder as the swagger.sh and the server.py(Provided)
+  
+   ![Swagger-json]( Swagger-jason.png " Swagger-json")
+   
+  2. We next execute the provided swagger.sh to download the latest container and lunch Swagger
+  
+   ![swagger-default-page]( swagger-default-page.PNG" swagger-default-page.PNG")
+   
+  3. To finally display the API Documentation of the model 
+  
+   ![swagger-endpoints]( swagger-endpoints.PNG" swagger-endpoints")
+
+
+
+
 
   
  
