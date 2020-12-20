@@ -50,7 +50,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
 
 ![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
-**Step 4: Enable Application Insights to retrieve logs. ab visualize the performance**
+**Step 4: Enable Application Insights to retrieve logs and visualize the performance**
 
  1. Where we modify a provided logs.py by adding the name of the deployed model and enabling application insight 
  
