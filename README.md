@@ -17,7 +17,6 @@ The architectual diagram of the project with the main step of each critical phas
 
 ![architector](architector.png "architector")
 
-
 ## Key Steps
 The Key steps of the project are demonstrated bellow (screenshots included)
 
@@ -69,11 +68,11 @@ The Key steps of the project are demonstrated bellow (screenshots included)
    
   2. We next execute the provided swagger.sh to download the latest container and lunch Swagger
   
-   ![swagger-default-page]( swagger-default-page.PNG" swagger-default-page.PNG")
+   ![swagger-default-page]( swagger-default-page.PNG " swagger-default-page.PNG")
    
   3. To finally display the API Documentation of the model 
   
-   ![swagger-endpoints]( swagger-endpoints.PNG" swagger-endpoints")
+   ![swagger-endpoints](swagger-endpoints.PNG " swagger-endpoints")
 
 
 
