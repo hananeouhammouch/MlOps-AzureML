@@ -41,7 +41,7 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![Best-Model](Best-Model.png "Best-Model")
 
-**Step 3: Deploy the Best Model**
+**Step 3:Deploy the Best Model**
 
  1. Where we deploy the best Model from the previous Auto ML experiment by enabling Authentication and using Azure container instance (ACI)
 
@@ -51,9 +51,20 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
-**Step 4: Enable Application Insights**
+**Step 4:Enable Application Insights**
 
- 1. Where we modify )
+ 1. Where we modify a provided logs.py by adding the name of the deployed model and enabling application insight 
+ 
+ ![Enable-application-insight](Enable-application-insight.png "Enable-application-insight")
+ 
+  2. To finally access to application insight 
+  
+ ![Application-insight.png]( Application-insight.png " Application-insight")
+
+  
+ 
+
+
 
 
 
