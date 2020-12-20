@@ -8,7 +8,7 @@ The main object of this project is to predict if a client will subscribe to a te
 
 Dataset: https://www.kaggle.com/henriqueyamahata/bank-marketing 
 
-Where we apply MLOps principle by starting  with the authenticating to Azure Machine Learning services, then the creation of an Automated ML experiment , the deployment of the best model, after that enabling of the loging to review important log information, then consuming of the model endpoint and finelly the creation and the publication of the pipeline to automate all this previous step.
+Where we apply MLOps principle by starting  with the authenticating to Azure Machine Learning services, then the creation of an Automated ML experiment , the deployment of the best model, after that we enable the loging to review important log information, then we consum the model endpoint and finelly we create and publish the pipeline to automate all this previous step.
 
 ![projectdiagrame](Main-step-project.png "projectdiagrame")
 
