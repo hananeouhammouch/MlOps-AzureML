@@ -51,6 +51,12 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
+**Step 4: Enable Application Insights**
+
+ 1. Where we modify )
+
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
