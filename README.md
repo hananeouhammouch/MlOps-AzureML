@@ -25,26 +25,21 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 **Step 2:Automated ML Experiment**
 
-Where we start first by the registration of the dataset into Azure ML Studio:
+1.Where we start first by the registration of the dataset into Azure ML Studio:
 
 ![Bank-Marketing-Dataset](Bank-Marketing-Dataset.png "Bank Marketing Dataset")
 
-we next create the compute cluster using Standard_DS3_V2 as the virtual Machine Size
+2.We next create the compute cluster using Standard_DS3_V2 as the virtual Machine Size:
 
 ![Compute-cluster](Compute-cluster.png "Compute-cluster")
 
-we then configure and run the Automated ML Classification Experiment
+3.We then configure and run the Automated ML Classification Experiment:
 
 ![Experiment-completed](Experiment-completed.png "Experiment-completed")
 
-we then configure and run the Automated ML Classification Experiment
-
-![Experiment-completed](Experiment-completed.png "Experiment-completed")
-
-To finally retrieve the Best Model after the expirement completed 
+4.To finally retrieve the Best Model after the expirement completed
 
 ![Best-Model](Best-Model.png "Best-Model")
-
 
 
 
