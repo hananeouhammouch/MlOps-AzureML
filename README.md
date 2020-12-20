@@ -101,25 +101,11 @@ The key steps of the project are demonstrated bellow (screenshots included)
     
 
 
-  
-  
-
-
-
-
-
-
-
-  
- 
-
-
-
-
-
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+The ability to use Python SDK to do various configuration in Azure ML is really intersting and my first attempt was to configure the automl run using python SDk Automated ML Experiment (v0).ipynb https://github.com/hananeouhammouch/MlOps-AzureML/blob/main/Automated%20ML%20Experiment%20(v0).ipynb but unfortunitly i was not able to deploy the model after mutiple attempt
+
+
