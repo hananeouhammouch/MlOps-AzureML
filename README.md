@@ -8,19 +8,19 @@ The main object of this project is to predict if a client will subscribe to a te
 
 Dataset: https://www.kaggle.com/henriqueyamahata/bank-marketing 
 
-Where we apply MLOps principle by starting  with the authenticating to Azure Machine Learning services, then the creation of an Automated ML experiment , the deployment of the best model, after that we enable the loging to review important log information, then we consum the model endpoint and finelly we create and publish the pipeline to automate all this previous step.
+Where we apply MLOps principle by starting with the authenticating to Azure Machine Learning services, then the creation of an Automated ML experiment, the deployment of the best model, after that we enable the logging to review important log information, then we consume the model endpoint and finally we create and publish the pipeline to automate all this previous step.
 
 ![projectdiagrame](Main-step-project.png "projectdiagrame")
 
 ## Architectural Diagram
-The architectual diagram of the project with the main step of each critical phase to the overall flow is described bellow:
+The architectural diagram of the project with the main step of each critical phase to the overall flow is described below:
 
-![architector](architector.png "architector")
+![architector](architector.png "architecture")
 
 ## Key Steps
-The Key steps of the project are demonstrated bellow (screenshots included)
+The key steps of the project are demonstrated bellow (screenshots included)
 
-**Step 1: Authentication**  *Skiped because i used the provided Udacity Lab*
+**Step 1: Authentication**  *Skipped because I used the provided Udacity Lab*
 
 **Step 2: Create the Automated ML Experiment**
 
@@ -36,7 +36,7 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![Experiment-completed](Experiment-completed.png "Experiment-completed")
 
- 4. To finally retrieve the Best Model after the expirement completed
+ 4. To finally retrieve the Best Model after the experiment completed
 
 ![Best-Model](Best-Model.png "Best-Model")
 
@@ -46,7 +46,7 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![Deployment-Best-Model](Deployment-Best-Model.PNG "Deployment-Best-Model")
 
- 2. To finally create the endoints after the deployement completed
+ 2. To finally create the endpoints after the deployment completed
 
 ![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
@@ -56,17 +56,17 @@ The Key steps of the project are demonstrated bellow (screenshots included)
  
  ![Enable-application-insight](Enable-application-insight.png "Enable-application-insight")
  
-  2. To finally access to application insight 
+  2. To finally access application insight 
   
  ![Application-insight]( Application-insight.png " Application-insight")
  
  **Step 5: Consume the deployed model using Swagger**
  
-  1. Where we start by downloading the swagger.json file  associated to the deployed model endpoints and place in the same folder as the swagger.sh and the server.py(Provided)
+  1. Where we start by downloading the swagger.json file associated with the deployed model endpoints and place it in the same folder as the swagger. sh and the server.py(Provided)
   
    ![Swagger-json]( Swagger-jason.png " Swagger-json")
    
-  2. We next execute the provided swagger.sh to download the latest container and lunch Swagger
+  2. We next execute the provided swagger. sh to download the latest container and lunch Swagger
   
    ![swagger-default-page]( swagger-default-page.PNG " swagger-default-page.PNG")
    
@@ -80,7 +80,7 @@ The Key steps of the project are demonstrated bellow (screenshots included)
   
    ![EndPoint-file](EndPoint-file.PNG " EndPoint-file")
    
-  3. To finally run the endpoints.py to interact with the trained model
+  2. To finally run the endpoints.py to interact with the trained model
   
    ![endpoints-result](endpoints-result.PNG " endpoints-result")
 
