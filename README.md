@@ -90,18 +90,23 @@ The key steps of the project are demonstrated bellow (screenshots included)
    
    **Step 7: Create, Publish and Consume a Pipeline to automate all these privous step in one python SDK**
 
-  1. Where we used a provided aml-pipelines-with-automated-machine-learning-step.ipynb notebook and updating it to have the same keys, URI, dataset, cluster, and model names already created
+  1. Where we used a provided aml-pipelines-with-automated-machine-learning-step.ipynb notebook
   
   2. Download the config.json file and place it in the working directory
   
   3. Run the different cells of the notebook to 
   
-    1. Create the pipeline
+   . Create the pipeline
     
   ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
+  
+    . Run scessful in Jypeter
 
+  
+   . Publish the pipeline endpoints
     
-    2. Publish the pipeline endpoints
+      ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
+
     
     
     
@@ -112,7 +117,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
 
 
 ## Standout Suggestions
-The ability to use Python SDK to do various configuration in Azure ML is really intersting and my first attempt was to configure the automl run using python SDk Automated ML Experiment (v0).ipynb https://github.com/hananeouhammouch/MlOps-AzureML/blob/main/Automated%20ML%20Experiment%20(v0).ipynb but unfortunitly i was not able to deploy the model after mutiple attempt
+The ability to use Python SDK to do various configuration in Azure ML is really intersting and my first attempt was to configure the automl run using python SDk Automated ML Experiment (v0).ipynb but unfortunitly i was not able to deploy the model after mutiple attempt
    
 ![auto-ml-failed](auto-ml-failed.png " auto-ml-failed")
 
