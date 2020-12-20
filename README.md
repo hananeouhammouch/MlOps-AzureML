@@ -73,6 +73,21 @@ The Key steps of the project are demonstrated bellow (screenshots included)
   3. To finally display the API Documentation of the model 
   
    ![swagger-endpoints](swagger-endpoints.PNG " swagger-endpoints")
+   
+ **Step 6: Consume the Model Endpoints**
+ 
+  1. Where we modify a provided endpoints.py by adding the scoring_uri and the key to match the key for the service and the URI that was generated after deployment
+  
+   ![EndPoint-file](EndPoint-file.PNG " EndPoint-file")
+   
+  3. To finally run the endpoints.py to interact with the trained model
+  
+   ![endpoints-result](endpoints-result.PNG " endpoints-result")
+
+  
+  
+
+
 
 
 
