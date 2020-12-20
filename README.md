@@ -58,7 +58,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
  
   2. Excute the logs.py file 
   
-  ![log-application-insight](log-application-insight.png "log-application-insight")
+  ![log-application-insight](log-application-insight.PNG "log-application-insight")
   
   3. To finally access to application insight 
   
