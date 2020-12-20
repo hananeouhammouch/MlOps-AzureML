@@ -41,6 +41,15 @@ The Key steps of the project are demonstrated bellow (screenshots included)
 
 ![Best-Model](Best-Model.png "Best-Model")
 
+**Step 3: Deploy the Best Model**
+
+ 1. Where we deploy the best Model from the previous Auto ML experiment by enabling Authentication and using Azure container instance (ACI)
+
+![Deployment-Best-Model](Deployment-Best-Model.PNG "Deployment-Best-Model")
+
+ 2. To finally create the endoints after the deployement completed
+
+![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
 
 ## Screen Recording
