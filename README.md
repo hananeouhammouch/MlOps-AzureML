@@ -56,7 +56,11 @@ The key steps of the project are demonstrated bellow (screenshots included)
  
  ![Enable-application-insight](Enable-application-insight.png "Enable-application-insight")
  
-  2. To finally access application insight 
+  2. Excute the logs.py file 
+  
+  ![log-application-insight](log-application-insight.png "log-application-insight")
+  
+  3. To finally access to application insight 
   
  ![Application-insight]( Application-insight.png " Application-insight")
  
