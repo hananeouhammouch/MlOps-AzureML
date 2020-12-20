@@ -108,4 +108,6 @@ The key steps of the project are demonstrated bellow (screenshots included)
 ## Standout Suggestions
 The ability to use Python SDK to do various configuration in Azure ML is really intersting and my first attempt was to configure the automl run using python SDk Automated ML Experiment (v0).ipynb https://github.com/hananeouhammouch/MlOps-AzureML/blob/main/Automated%20ML%20Experiment%20(v0).ipynb but unfortunitly i was not able to deploy the model after mutiple attempt
 
+My suggestions for the future are basicaly asscociated with the AutoML step where we need first to fix balancing problem which can lead to a falsely perceived positive effect of a model's accuracy because the input data has bias towards one class we need next to give more time the the AutoML experiement to test more model and deliver better result 
+
 
