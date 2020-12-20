@@ -21,11 +21,31 @@ The architectual diagram of the project with the main step of each critical phas
 ## Key Steps
 The Key steps of the project are demonstrated bellow (screenshots included)
 
-**Step 1: Authentication**
-Skiped because i used the provided Udacity Lab 
+**Step 1:Authentication** : Skiped because i used the provided Udacity Lab 
 
-**Step 2: Step 2: Automated ML Experiment
-**
+**Step 2:Automated ML Experiment**
+
+Where we start first by the registration of the dataset into Azure ML Studio:
+
+![Bank-Marketing-Dataset](Bank-Marketing-Dataset.png "Bank Marketing Dataset")
+
+we next create the compute cluster using Standard_DS3_V2 as the virtual Machine Size
+
+![Compute-cluster](Compute-cluster.png "Compute-cluster")
+
+we then configure and run the Automated ML Classification Experiment
+
+![Experiment-completed](Experiment-completed.png "Experiment-completed")
+
+we then configure and run the Automated ML Classification Experiment
+
+![Experiment-completed](Experiment-completed.png "Experiment-completed")
+
+To finally retrieve the Best Model after the expirement completed 
+
+![Best-Model](Best-Model.png "Best-Model")
+
+
 
 
 ## Screen Recording
