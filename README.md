@@ -98,9 +98,11 @@ The key steps of the project are demonstrated bellow (screenshots included)
   
     1. Create the pipeline
     
+  ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
+
+    
     2. Publish the pipeline endpoints
     
-    3. Schedule the pipeline run
     
     
 
