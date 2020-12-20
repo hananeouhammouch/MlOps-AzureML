@@ -83,6 +83,23 @@ The key steps of the project are demonstrated bellow (screenshots included)
   2. To finally run the endpoints.py to interact with the trained model
   
    ![endpoints-result](endpoints-result.PNG " endpoints-result")
+   
+   **Step 7: Create, Publish and Consume a Pipeline to automate all these privous step in one python SDK**
+
+  1. Where we used a provided aml-pipelines-with-automated-machine-learning-step.ipynb notebook and updating it to have the same keys, URI, dataset, cluster, and model names already created
+  
+  2. Download the config.json file and place it in the working directory
+  
+  3. Run the different cells of the notebook to 
+  
+    1. Create the pipeline
+    
+    2. Publish the pipeline endpoints
+    
+    3. Schedule the pipeline run
+    
+    
+
 
   
   
