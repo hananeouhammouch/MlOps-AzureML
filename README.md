@@ -12,6 +12,9 @@ Where we apply Ml-Ops principle by starting  with the authenticating to Azure Ma
 ## Architectural Diagram
 To describe more how this project was created you can find bellow the architectual diagram of the project with the main step of each phase that was critical to the overall flow :
 
+![architector](architector.png "architector")
+
+
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
