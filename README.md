@@ -68,7 +68,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
  
   1. Where we start by downloading the swagger.json file associated with the deployed model endpoints and place it in the same folder as the swagger.sh and the server.py(Provided)
   
-   ![Swagger-json]( Swagger-jason.png " Swagger-json")
+   ![Swagger-json]( Swagger-json.png " Swagger-json")
    
   2. We next execute the provided swagger.sh to download the latest container and lunch Swagger
   
