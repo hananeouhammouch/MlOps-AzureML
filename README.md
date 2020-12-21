@@ -97,23 +97,20 @@ The key steps of the project are demonstrated bellow (screenshots included)
   3. Run the different cells of the notebook to 
   
    . Create the pipeline
-    
-  ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
+ 
+  ![pipeline-completed](pipeline-completed.PNG " pipeline-completed")
   
-    . Run scessful in Jypeter
-
+  ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
   
    . Publish the pipeline endpoints
     
-      ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
+   ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
+   
+   . the Rest endpoint pipeline 
 
-    
-    
-    
+   ![pipeline-rest-endpoint](pipeline-rest-endpoint.png " pipeline-rest-endpoint")
 
-
-
-## Screen Recording
+## Screen Recording : https://www.youtube.com/watch?v=Z606QYScX-I&feature=youtu.be
 
 
 ## Standout Suggestions
