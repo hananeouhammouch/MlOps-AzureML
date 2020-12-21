@@ -102,7 +102,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
   
   ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
   
-    . Create the Rest endpoint pipeline 
+    . Create the Rest endpoint pipeline run (executed)
 
    ![pipeline-rest-endpoint](pipeline-rest-endpoint.png " pipeline-rest-endpoint")
    
