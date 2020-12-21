@@ -92,32 +92,29 @@ The key steps of the project are demonstrated bellow (screenshots included)
 
   1. Where we used a provided aml-pipelines-with-automated-machine-learning-step.ipynb notebook
   
-  2. Download the config.json file and place it in the working directory
+  2. we also download the config.json file and place it in the working directory
   
-  3. Run the different cells of the notebook to 
+  3. And finally Run the different cells of the notebook to :
   
-   . Create the pipeline
+    . Create the pipeline
  
   ![pipeline-completed](pipeline-completed.PNG " pipeline-completed")
   
   ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
   
-   . Publish the pipeline endpoints
-    
-   ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
-   
-   . the Rest endpoint pipeline 
+    . Create the Rest endpoint pipeline 
 
    ![pipeline-rest-endpoint](pipeline-rest-endpoint.png " pipeline-rest-endpoint")
+   
+    . Publish the pipeline endpoints
+    
+   ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
 
 ## Screen Recording : https://www.youtube.com/watch?v=Z606QYScX-I&feature=youtu.be
 
-
 ## Standout Suggestions
-The ability to use Python SDK to do various configurations in Azure ML is interesting and my first attempt was to configure the automl run using python SDK (Automated ML Experiment (v0).ipynb) but unfortunately, I was not able to deploy the model after multiple attempts
+The ability to use Python SDK to do various configurations in Azure ML is very interesting and my first attempt was to configure the automl run using python SDK (Automated ML Experiment (v0).ipynb) but unfortunately, I was not able to deploy the model after multiple attempts
    
 ![auto-ml-failed](auto-ml-failed.png " auto-ml-failed")
 
-My suggestions for the future are associated with the AutoML step where we need first to fix the balancing problem which can lead to a falsely perceived positive effect of a model's accuracy because the input data has a bias towards one class, we need also next to give more time the AutoML experiment to test more model and deliver a better result 
-
-
+My suggestions for the future are associated with the AutoML step where we need first to fix the balancing problem which can lead to a falsely perceived positive effect of the model's accuracy because the input data has a bias towards one class, we need also next to give more time to the AutoML experiment to test more model and deliver a better result 
