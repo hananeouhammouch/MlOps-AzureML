@@ -40,7 +40,8 @@ The key steps of the project are demonstrated bellow (screenshots included)
 ![Experiment-completed](Experiment-completed.png "Experiment-completed")
 
  4. To finally retrieve the Best Model after the experiment completed
-
+ 
+*Figure 4 :Experiments / auto-ml-exp / Run 4 (completed)*
 ![Best-Model](Best-Model.png "Best-Model")
 
 **Step 3: Deploy the Best Model**
