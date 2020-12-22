@@ -58,16 +58,19 @@ The key steps of the project are demonstrated bellow (screenshots included)
 
 **Step 4: Enable Application Insights to retrieve logs and visualize the performance**
 
- 1. Where we modify a provided logs.py by adding the name of the deployed model and enabling application insight 
+ 1. Where we start by modifying a provided logs.py by adding the name of the deployed model and enabling application insight 
  
+ *Figure 7 :logs.py(Modification)*
  ![Enable-application-insight](Enable-application-insight.png "Enable-application-insight")
  
-  2. Execute the logs.py file 
+  2. we then execute the logs.py file 
   
+ *Figure 8 :logs.py(Execution)*
   ![log-application-insight](log-application-insight.PNG "log-application-insight")
   
   3. To finally access application insight 
   
+ *Figure 9 :Application insight*
  ![Application-insight]( Application-insight.png " Application-insight")
  
  **Step 5: Consume the deployed model using Swagger**
