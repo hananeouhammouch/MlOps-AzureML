@@ -68,7 +68,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
  *Figure 8 :logs.py(Execution)*
   ![log-application-insight](log-application-insight.PNG "log-application-insight")
   
-  3. To finally access application insight 
+  3. To finally access to application insight  from the endpoints 
   
  *Figure 9 :Application insight*
  ![Application-insight]( Application-insight.png " Application-insight")
