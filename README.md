@@ -82,10 +82,12 @@ The key steps of the project are demonstrated bellow (screenshots included)
    
   2. We next execute the provided swagger.sh to download the latest container and lunch Swagger
   
+  *Figure 11 : Swagger default page*
    ![swagger-default-page]( swagger-default-page.PNG " swagger-default-page.PNG")
    
   3. To finally display the API Documentation of the model 
   
+  *Figure 12 : Swagger documentation associated to the model endpoints*
    ![swagger-endpoints](swagger-endpoints.PNG " swagger-endpoints")
    
  **Step 6: Consume the Model Endpoints**
