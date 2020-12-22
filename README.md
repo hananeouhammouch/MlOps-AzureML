@@ -25,7 +25,8 @@ The key steps of the project are demonstrated bellow (screenshots included)
 **Step 2: Create the Automated ML Experiment**
 
  1. Where we start first by the registration of the dataset into Azure ML Studio:
-
+ 
+*Figure 1 :Datasets/ Bank-marketing*
 ![Bank-Marketing-Dataset](Bank-Marketing-Dataset.png "Bank Marketing Dataset")
 
  2. We next create the compute cluster using Standard_DS3_V2 as the virtual Machine Size:
