@@ -92,12 +92,14 @@ The key steps of the project are demonstrated bellow (screenshots included)
    
  **Step 6: Consume the Model Endpoints**
  
-  1. Where we modify a provided endpoints.py by adding the scoring_uri and the key to match what was generated after the deployment
+  1. Where we start by modifying a provided endpoints.py by adding the scoring_uri and the key to match what was generated after the deployment
   
+  *Figure 13 : endpoint.py*
    ![EndPoint-file](EndPoint-file.PNG " EndPoint-file")
    
   2. To finally run the endpoints.py to interact with the trained model
   
+  *Figure 14 : Interaction with the model using endpoint.py*
    ![endpoints-result](endpoints-result.PNG " endpoints-result")
    
    **Step 7: Create, Publish and Consume a Pipeline to automate all these previous steps in one python SDK**
