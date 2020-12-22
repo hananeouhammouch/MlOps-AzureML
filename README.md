@@ -35,7 +35,8 @@ The key steps of the project are demonstrated bellow (screenshots included)
 ![Compute-cluster](Compute-cluster.png "Compute-cluster")
 
  3. We then configure and run the Automated ML Classification Experiment:
-
+ 
+*Figure 3 :Experiments / auto-ml-exp*
 ![Experiment-completed](Experiment-completed.png "Experiment-completed")
 
  4. To finally retrieve the Best Model after the experiment completed
