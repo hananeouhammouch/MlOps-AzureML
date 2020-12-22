@@ -31,6 +31,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
 
  2. We next create the compute cluster using Standard_DS3_V2 as the virtual Machine Size:
 
+*Figure 2 :Compute / cpu-clusters*
 ![Compute-cluster](Compute-cluster.png "Compute-cluster")
 
  3. We then configure and run the Automated ML Classification Experiment:
