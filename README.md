@@ -52,7 +52,8 @@ The key steps of the project are demonstrated bellow (screenshots included)
 ![Deployment-Best-Model](Deployment-Best-Model.PNG "Deployment-Best-Model")
 
  2. To finally create the endpoints after the deployment completed
-
+ 
+*Figure 6 :Endpoints /mlops-model-deploy-bm  (Healthy)*
 ![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
 
 **Step 4: Enable Application Insights to retrieve logs and visualize the performance**
