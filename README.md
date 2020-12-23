@@ -124,7 +124,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
    *Figure 18 : Pipeline experiments(azure ml studio)*
   ![pipeline-EXP](pipelin-exp.png " pipeline-EXP")
   
-    . Create the Rest endpoint pipeline run (executed)
+    . Create the Rest endpoint associqted to the pipeline
     
    *Figure 19 : Published pipeline overview*
  ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
