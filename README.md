@@ -112,23 +112,30 @@ The key steps of the project are demonstrated bellow (screenshots included)
   
     . Create the pipeline
  
+  *Figure 15 : Pipeline creation (jupyter Notebook)*
   ![pipeline-completed](pipeline-completed.PNG " pipeline-completed")
   
+  *Figure 16 : Pipeline creation (azure ml studio)*
   ![pipeline-creation](pipeline-creation.PNG " pipeline-creation")
   
+  *Figure 17 : Pipeline run overview (azure ml studio)*
+  ![pipeline-rest-endpoint](pipeline-rest-endpoint.png " pipeline-rest-endpoint")
+  
+   *Figure 18 : Pipeline experiments(azure ml studio)*
+  ![pipeline-EXP](pipeline-exp.png " pipeline-EXP")
+  
     . Create the Rest endpoint pipeline run (executed)
-
-   ![pipeline-rest-endpoint](pipeline-rest-endpoint.png " pipeline-rest-endpoint")
-   
-    . Publish the pipeline endpoints
     
-   ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
-
+   *Figure 19 : Published pipeline overview*
+ ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
+   
+  
 ## Screen Recording : https://www.youtube.com/watch?v=Z606QYScX-I&feature=youtu.be
 
 ## Standout Suggestions
 The ability to use Python SDK to do various configurations in Azure ML is very interesting and my first attempt was to configure the automl run using python SDK (Automated ML Experiment (v0).ipynb) but unfortunately, I was not able to deploy the model after multiple attempts
    
+*Figure 20 : deployment failed*
 ![auto-ml-failed](auto-ml-failed.png " auto-ml-failed")
 
-My suggestions for the future are associated with the AutoML step where we need first to fix the balancing problem which can lead to a falsely perceived positive effect of the model's accuracy because the input data has a bias towards one class, we need also next to give more time to the AutoML experiment to test more model and deliver a better result 
+My suggestions for the future are associated with the AutoML step where we need first to fix the balancing problem which can lead to a falsely perceived positive effect of the model's accuracy because the input data has a bias towards one class, we need also next to give more time and even choose deep learning to the AutoML experiment to test more model and deliver a better result 
