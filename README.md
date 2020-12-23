@@ -122,7 +122,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
   ![pipeline-rest-endpoint](pipeline-rest-endpoint.png " pipeline-rest-endpoint")
   
    *Figure 18 : Pipeline experiments(azure ml studio)*
-  ![pipeline-EXP](pipeline-exp.PNG " pipeline-EXP")
+  ![pipeline-EXP](pipelin-exp.png " pipeline-EXP")
   
     . Create the Rest endpoint pipeline run (executed)
     
