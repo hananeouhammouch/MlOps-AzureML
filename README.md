@@ -130,7 +130,7 @@ The key steps of the project are demonstrated bellow (screenshots included)
  ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
    
  
-## Screen Recording : https://www.youtube.com/watch?v=Z606QYScX-I&feature=youtu.be
+## Screen Recording : https://www.youtube.com/watch?v=h1JAVnvP7-c&feature=youtu.be
 
 ## Standout Suggestions
 The ability to use Python SDK to do various configurations in Azure ML is very interesting and my first attempt was to configure the automl run using python SDK (Automated ML Experiment (v0).ipynb) but unfortunately, I was not able to deploy the model after multiple attempts
